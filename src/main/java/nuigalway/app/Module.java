@@ -2,7 +2,7 @@ package nuigalway.app;
 
 import java.util.List;
 
-public class  Module{
+public class Module {
     public String moduleName;
     public String moduleID;
     public List<Student> students;

@@ -1,16 +1,17 @@
 package nuigalway.app;
 
 import java.util.List;
+
 import org.joda.time.DateTime;
 
-public class CourseProgramme{
+public class CourseProgramme {
     public String courseName;
     public List<Module> modules;
     public List<Student> students;
     public DateTime startDate;
     public DateTime endDate;
 
-    public CourseProgramme(String name, DateTime startDate, DateTime endDate){
+    public CourseProgramme(String name, DateTime startDate, DateTime endDate) {
         this.courseName = name;
         this.startDate = startDate;
         this.endDate = endDate;
